@@ -1,0 +1,16 @@
+User Guide:
+Compress: python3 jpeg-compressor.py [input]
+input is image file(*.jpg, *.png, *.bmp ...)
+
+Decompress: python3 jpeg-decompressor.py [input]
+input is .jc file (output of jpeg-compressor.py)
+
+Test:
+with test1.jpg(640x640): compress in ~29s, decompress in ~25s
+with test2.png(120x120): compress in ~1.3s, decompress in ~0.9s
+
+Member:
+Nguyễn Đình Dục: 13020208
+Trần Xuân Dũng: 13020087
+Trần Xuân Hoàng: 13020177
+Chu Thành Hưng: 13020208
